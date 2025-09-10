@@ -1,5 +1,8 @@
 ## WasteWealth - Tech Stack & Functionality
 
+WasteWealth is a next-generation **B2B waste-to-wealth marketplace** that connects industries, enabling them to trade surplus and recyclable materials while tracking their environmental impact in real time. Built with **Next.js, TypeScript, Tailwind CSS, and Recharts**, it offers a modern, responsive platform with **CO₂ tracking, analytics dashboards, and sustainability engagement tools** to promote a truly **circular economy**.
+
+
 ### **Tech Stack Used:**
 
 **Frontend Framework:**
