@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 120 20% 98%;
+    --foreground: 120 10% 15%;
+    --card: 120 15% 96%;
+    --card-foreground: 120 10% 15%;
+    --popover: 120 15% 96%;
+    --popover-foreground: 120 10% 15%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 120 20% 98%;
+    --secondary: 120 10% 90%;
+    --secondary-foreground: 120 10% 15%;
+    --muted: 120 10% 92%;
+    --muted-foreground: 120 5% 45%;
+    --accent: 142 30% 85%;
+    --accent-foreground: 142 76% 25%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 120 10% 88%;
+    --input: 120 10% 88%;
+    --ring: 142 76% 36%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 120 15% 8%;
+    --foreground: 120 10% 90%;
+    --card: 120 15% 10%;
+    --card-foreground: 120 10% 90%;
+    --popover: 120 15% 10%;
+    --popover-foreground: 120 10% 90%;
+    --primary: 142 70% 45%;
+    --primary-foreground: 120 15% 8%;
+    --secondary: 120 10% 15%;
+    --secondary-foreground: 120 10% 90%;
+    --muted: 120 10% 15%;
+    --muted-foreground: 120 5% 60%;
+    --accent: 142 30% 20%;
+    --accent-foreground: 142 70% 70%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 120 10% 20%;
+    --input: 120 10% 20%;
+    --ring: 142 70% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+  }
+}
+
+/* Custom animations for environmental feel */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse-green {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-green {
+  animation: pulse-green 2s ease-in-out infinite;
+}
+
+.animate-grow {
+  animation: grow 0.2s ease-in-out;
+}
+
+/* Gradient backgrounds for environmental feel */
+.bg-nature-light {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 50%, #bbf7d0 100%);
+}
+
+.dark .bg-nature-light {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+}
+
+.bg-nature-dark {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+}
+
+.bg-earth-gradient {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 50%, #15803d 100%);
+}
+
+/* Interactive hover effects */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dark .hover-lift:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Enhanced Mobile Responsiveness */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Mobile-first card layouts */
+  .grid-responsive {
+    grid-template-columns: 1fr;
+  }
+
+  /* Better mobile spacing */
+  .mobile-spacing {
+    padding: 0.75rem;
+  }
+
+  /* Mobile-friendly buttons */
+  .mobile-button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Mobile text sizing */
+  .mobile-text {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+/* Tablet responsiveness */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .tablet-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Touch-friendly interactions */
+@media (hover: none) and (pointer: coarse) {
+  .hover-lift:hover {
+    transform: none;
+  }
+
+  .hover-lift:active {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Improved focus states for accessibility */
+.focus-visible:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 2px;
+}
+
+/* Better mobile modal sizing */
+@media (max-width: 640px) {
+  [data-radix-dialog-content] {
+    width: 95vw;
+    max-width: 95vw;
+    margin: 0;
+  }
+}
